@@ -1,0 +1,4 @@
+li {
+  /* utilizar "display: block" é uma das formas de forçar os items de uma lista a aparecerem de forma vertical */
+  display: block;
+}
