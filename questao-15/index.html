@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questão 15</title>
+  <style>
+  
+    div {
+      border: 2px solid #000;
+      margin: 5px;
+    }
+    
+   .itemA {
+     display: block;
+     padding: 2rem;
+   }
+   .container {
+     display: flex;
+   }
+   
+  .cdContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+   
+   @media screen and (max-width: 790px) {
+    .container {
+      flex-direction: column;
+    }
+   }
+  </style>
+</head>
+<body>
+ <div class="itemA">
+   <h1>A</h1>
+ </div>
+ <div class="container">
+   <div class="cItem1">
+     <div>
+       <h1>B</h1>
+     </div>
+     <div class="cdContainer">
+       <h1>C</h1>
+       <h1>D</h1>
+     </div>
+   </div>
+   <div class="cItem2">
+     <h1>E</h1>
+   </div>
+ </div>
+</body>
+</html>
